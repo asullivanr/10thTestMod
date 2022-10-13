@@ -1,10 +1,9 @@
 class CfgPatches
 {
-	class ArmorTestingMod {
+	class Tenthed_Test_Armor {
 		author = "Akira";
 		name = "10th Armor Testing";
 		requiredAddons[] = {
-			"OPTRE_Core",
 			"Silvers_Customs"
 		};
 		weapons[] = {};
@@ -30,7 +29,7 @@ class cfgWeapons
 
 	class SCT_10th_CH252D_Base;
 
-
+	// Armors
 	class SpecialistArmor_test : SCT_10th_Specialist2_Armor
 	{
 		scope = 2;
@@ -175,6 +174,7 @@ class cfgWeapons
 		};
 	};
 
+	// Helmets
 	class Helmet_Black : SCT_10th_CH252D_Base {
 		scope = 2;
 		displayName = "[10th] Helmet Black Visor";
