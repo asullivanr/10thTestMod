@@ -11,8 +11,8 @@ class CfgPatches
 		weapons[] = {};
 		units[] = {
 			"Tenthed_Test_ANPRC_521_Backback",
-			"",
-			""
+			"Tenthed_Test_ILCS_Rucksack",
+			"Tenthed_HMG_Backpack_Test"
 		};
 	};
 };
