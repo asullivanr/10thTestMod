@@ -48,7 +48,6 @@ class cfgVehicles {
 			"\10thTestMod\addons\Vehicles\data\Hornet\Hornet.paa"
 		};
 	};
-
 	class Tenthed_Test_Stallion : OPTRE_m1087_stallion_cover_unsc {
 		displayName = "[10th] Test Stallion";
 		author = "Akira";
