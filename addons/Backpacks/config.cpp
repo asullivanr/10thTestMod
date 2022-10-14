@@ -76,6 +76,5 @@ class cfgVehicles {
 			""
 		};
 		maximumLoad = 0;
-
 	};
 }
