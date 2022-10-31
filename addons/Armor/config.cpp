@@ -279,7 +279,7 @@ class cfgWeapons
 		model = "\OPTRE_FC_Units\Marines\h3_vest.p3d";
 		picture = "\OPTRE_FC_Units\Marines\data\h3_vest_i_ca.paa";
 		hiddenSelectionsTextures[] = {
-			"Armor\data\Pilot_Armor_Vest\h3_vest_co.paa",
+			"Armor\data\Pilot_Armor_Armored\h3_vest_co.paa",
 		};
 		hiddenSelections[] = {
 				"camo1",
@@ -304,7 +304,7 @@ class cfgWeapons
 			passThrough = 0.15000001;
 			modelSides[] = { 6 };
 			hiddenSelectionsTextures[] = {
-				"Armor\data\Pilot_Armor_Vest\h3_vest_co.paa",
+				"Armor\data\Pilot_Armor_Armored\h3_vest_co.paa",
 			};
 			hiddenSelections[] = {
 				"camo1",
