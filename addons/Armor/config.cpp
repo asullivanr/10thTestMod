@@ -3,9 +3,7 @@ class CfgPatches
 	class Tenthed1_Test_Armor {
 		author = "Akira";
 		name = "10th Armor Testing";
-		requiredAddons[] = {
-			"Silvers_Customs"
-		};
+		requiredAddons[] = {};
 		weapons[] = {};
 		units[] = {};
 	};
@@ -15,8 +13,6 @@ class cfgWeapons
 {
 	class HeadgearItem;
 	class VestItem;
-
-	class test_CH252D_Base;
 	class OPTRE_UNSC_M52D_Armor;
 	class OPTRE_FC_M52B_Armor_Vest;
 
