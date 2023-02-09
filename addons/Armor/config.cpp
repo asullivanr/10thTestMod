@@ -1052,7 +1052,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Specialist2_Armor\armor_test.paa"
 		};
@@ -1065,7 +1065,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Rifleman_Armor\armor_test.paa"
 		};
@@ -1078,7 +1078,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Rifleman_ArmorKnife\armor_test.paa"
 		};
@@ -1091,7 +1091,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\DemolitionsKnife_Armor\armor_test.paa"
 		};
@@ -1104,7 +1104,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Demolitions_Armor\armor_test.paa"
 		};
@@ -1117,7 +1117,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Light_Knife_Armor\armor_test.paa"
 		};
@@ -1130,7 +1130,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Light_Armor\armor_test.paa"
 		};
@@ -1143,7 +1143,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Sniper_Knife\armor_test.paa"
 		};
@@ -1156,7 +1156,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\sniper_armor\armor_test.paa"
 		};
@@ -1169,7 +1169,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Sniper_armor_ghillie\armor_test.paa"
 		};
@@ -1182,7 +1182,7 @@ class cfgWeapons
 		{
 			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
 			"optre_unsc_units\army\data\armor_odst_co.paa",
-			"10th_AC\data\armor\odst_legs_co.paa",
+			"Armor\data\odst_legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
 			"Armor\data\Alternate_Armor\armor_test.paa"
 		};
@@ -1375,6 +1375,41 @@ class cfgWeapons
 			};
 		};
 	};
+	
+	// Color Templates
+	class ColorTemplate_Default : test_Specialist2_Armor {
+		scope = 2;
+		displayName = "[10th Test] Color Template Default";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Armor\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Armor\data\Armor_Colors\Default\armor.paa",
+		};
+	};
+	class ColorTemplate_Silver : test_Specialist2_Armor {
+		scope = 2;
+		displayName = "[10th Test] Color Template Silver";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Armor\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Armor\data\Armor_Colors\Silver\armor.paa",
+		};
+	};
+	class ColorTemplate_Tan : test_Specialist2_Armor {
+		scope = 2;
+		displayName = "[10th Test] Color Template Tan";
+		hiddenSelectionsTextures[] = {
+			"OPTRE_UNSC_Units\Army\data\vest_odst_co.paa",
+			"optre_unsc_units\army\data\armor_odst_co.paa",
+			"Armor\data\odst_legs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"Armor\data\Armor_Colors\Tan\armor.paa",
+		};
+	};
 
 	// Helmets
 	class Helmet_Black : test_CH252D_Base {
@@ -1553,4 +1588,91 @@ class cfgWeapons
 			"\Armor\data\Pilot_helmet_v1\h3_pilothelmet_visor_CO"
 		};
 	};
+
+	// Helmet Color Templates
+	class ColorTemplate_Default_Helmet : test_CH252D_Base {
+		scope = 2;
+		displayName = "[10th Test] Color Template Default";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Armor\data\Armor_Colors\Default\helmet.paa",
+			"Armor\visors\defaultvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+		class ItemInfo : HeadgearItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+			mass = 40;
+			modelSides[] = { 6 };
+			passThrough = 0.1;
+			hiddenSelections[] = {
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[] = {
+				"Armor\data\Armor_Colors\Default\helmet.paa",
+				"Armor\visors\defaultvisor.paa"
+			};
+		};
+	};
+	class ColorTemplate_Silver_Helmet : test_CH252D_Base {
+		scope = 2;
+		displayName = "[10th Test] Color Template Silver";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Armor\data\Armor_Colors\Silver\helmet.paa",
+			"Armor\visors\defaultvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+		class ItemInfo : HeadgearItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+			mass = 40;
+			modelSides[] = { 6 };
+			passThrough = 0.1;
+			hiddenSelections[] = {
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[] = {
+				"Armor\data\Armor_Colors\Silver\helmet.paa",
+				"Armor\visors\defaultvisor.paa"
+			};
+		};
+	};
+	class ColorTemplate_Tan_Helmet : test_CH252D_Base {
+		scope = 2;
+		displayName = "[10th Test] Color Template Tan";
+		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+		hiddenSelections[] = {
+			"camo",
+			"camo2"
+		};
+		hiddenSelectionsTextures[] = {
+			"Armor\data\Armor_Colors\Tan\helmet.paa",
+			"Armor\visors\defaultvisor.paa"
+		};
+		optreHUDStyle = "ODST_1";
+		class ItemInfo : HeadgearItem {
+			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
+			mass = 40;
+			modelSides[] = { 6 };
+			passThrough = 0.1;
+			hiddenSelections[] = {
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[] = {
+				"Armor\data\Armor_Colors\Tan\helmet.paa",
+				"Armor\visors\defaultvisor.paa"
+			};
+		};
+	};
+
 };

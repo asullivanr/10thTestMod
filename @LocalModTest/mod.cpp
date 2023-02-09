@@ -1,6 +1,6 @@
 author = "Akira";
-name = "10th testing Mod";
+name = "10th Armor testing Mod";
 picture = "logo.png"; 
 logo = "logo.paa";
-overview = "10th tester mod";
+overview = "10th Armor testing mod";
 version = 1;
