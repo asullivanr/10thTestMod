@@ -939,7 +939,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -961,7 +962,8 @@ class cfgWeapons
 			hiddenSelections[] =
 			{
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] =
 			{
@@ -996,7 +998,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1017,7 +1020,8 @@ class cfgWeapons
 			passThrough = 0.1;
 			hiddenSelections[] = {
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] = {
 				"optre_unsc_units\army\data\odst_helmet_co.paa",
@@ -1419,7 +1423,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1427,23 +1432,6 @@ class cfgWeapons
 			"Armor\visors\blackvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		class ItemInfo : HeadgearItem
-		{
-			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-			mass = 40;
-			modelSides[] = { 6 };
-			passThrough = 0.1;
-			hiddenSelections[] =
-			{
-				"camo",
-				"camo2"
-			};
-			hiddenSelectionsTextures[] =
-			{
-				"Armor\data\Helmet_Black\helmet_test.paa",
-				"Armor\visors\blackvisor.paa"
-			};
-		};
 	};
 	class Helmet_Default : test_CH252D_Base {
 		scope = 2;
@@ -1452,7 +1440,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1460,23 +1449,6 @@ class cfgWeapons
 			"Armor\visors\defaultvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		class ItemInfo : HeadgearItem
-		{
-			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-			mass = 40;
-			modelSides[] = { 6 };
-			passThrough = 0.1;
-			hiddenSelections[] =
-			{
-				"camo",
-				"camo2"
-			};
-			hiddenSelectionsTextures[] =
-			{
-				"Armor\data\Helmet_Default\helmet_test.paa",
-				"Armor\visors\defaultvisor.paa"
-			};
-		};
 	};
 	class Helmet_Blue : test_CH252D_Base {
 		scope = 2;
@@ -1485,7 +1457,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1493,23 +1466,7 @@ class cfgWeapons
 			"Armor\visors\bluevisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		class ItemInfo : HeadgearItem
-		{
-			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-			mass = 40;
-			modelSides[] = { 6 };
-			passThrough = 0.1;
-			hiddenSelections[] =
-			{
-				"camo",
-				"camo2"
-			};
-			hiddenSelectionsTextures[] =
-			{
-				"Armor\data\Helmet_Blue\helmet_test.paa",
-				"Armor\visors\bluevisor.paa"
-			};
-		};
+
 	};
 	class Helmet_Gold : test_CH252D_Base {
 		scope = 2;
@@ -1518,7 +1475,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1526,23 +1484,6 @@ class cfgWeapons
 			"Armor\visors\goldvisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		class ItemInfo : HeadgearItem
-		{
-			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-			mass = 40;
-			modelSides[] = { 6 };
-			passThrough = 0.1;
-			hiddenSelections[] =
-			{
-				"camo",
-				"camo2"
-			};
-			hiddenSelectionsTextures[] =
-			{
-				"Armor\data\Helmet_Gold\helmet_test.paa",
-				"Armor\visors\goldvisor.paa"
-			};
-		};
 	};
 	class Helmet_Silver : test_CH252D_Base {
 		scope = 2;
@@ -1551,7 +1492,8 @@ class cfgWeapons
 		hiddenSelections[] =
 		{
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] =
 		{
@@ -1559,23 +1501,6 @@ class cfgWeapons
 			"Armor\visors\silvervisor.paa"
 		};
 		optreHUDStyle = "ODST_1";
-		class ItemInfo : HeadgearItem
-		{
-			uniformModel = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
-			mass = 40;
-			modelSides[] = { 6 };
-			passThrough = 0.1;
-			hiddenSelections[] =
-			{
-				"camo",
-				"camo2"
-			};
-			hiddenSelectionsTextures[] =
-			{
-				"Armor\data\Helmet_Silver\helmet_test.paa",
-				"Armor\visors\silvervisor.paa"
-			};
-		};
 	};
 	class Helmet_Pilot : OPTRE_FC_VX19_Helmet {
 		dlc = "OPTRE_FC";
@@ -1596,7 +1521,8 @@ class cfgWeapons
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] = {
 			"Armor\data\Armor_Colors\Default\helmet.paa",
@@ -1610,7 +1536,8 @@ class cfgWeapons
 			passThrough = 0.1;
 			hiddenSelections[] = {
 				"camo",
-				"camo2"
+				"camo2",
+			"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] = {
 				"Armor\data\Armor_Colors\Default\helmet.paa",
@@ -1624,7 +1551,8 @@ class cfgWeapons
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] = {
 			"Armor\data\Armor_Colors\Silver\helmet.paa",
@@ -1638,7 +1566,8 @@ class cfgWeapons
 			passThrough = 0.1;
 			hiddenSelections[] = {
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] = {
 				"Armor\data\Armor_Colors\Silver\helmet.paa",
@@ -1652,7 +1581,8 @@ class cfgWeapons
 		model = "\OPTRE_UNSC_Units\Army\odst_helmet.p3d";
 		hiddenSelections[] = {
 			"camo",
-			"camo2"
+			"camo2",
+			"H_Ghillie"
 		};
 		hiddenSelectionsTextures[] = {
 			"Armor\data\Armor_Colors\Tan\helmet.paa",
@@ -1666,7 +1596,8 @@ class cfgWeapons
 			passThrough = 0.1;
 			hiddenSelections[] = {
 				"camo",
-				"camo2"
+				"camo2",
+				"H_Ghillie"
 			};
 			hiddenSelectionsTextures[] = {
 				"Armor\data\Armor_Colors\Tan\helmet.paa",
@@ -1674,5 +1605,4 @@ class cfgWeapons
 			};
 		};
 	};
-
 };
