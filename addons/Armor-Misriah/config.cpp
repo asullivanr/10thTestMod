@@ -232,7 +232,7 @@ class cfgWeapons {
 		displayName="[10th] M56S-R Helmet";
 		model="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
 		picture="MA_Armor\data\Icons\Halo_Reach_ODST_Helmet.paa";
-		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors.
+		hiddenSelectionsTextures[]= { // un comment out which visor color you would like to test. make sure to comment out the old color or else there will be errors. Blue visor enabled by default.
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Helmet_CO.paa",
 			"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa" // Blue Visor
 			//"MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_black_co.paa" // Black Visor
