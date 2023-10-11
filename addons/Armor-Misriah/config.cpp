@@ -305,7 +305,21 @@ class cfgWeapons {
 			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		};
 	};
-
+	class Tenthed_M56_Scout_Helmet_Test: Tenthed_Test_Helmet_Base {
+		scope=2;
+		scopeArsenal=2;
+		displayName="[10th] M65-S Helmet";
+		model="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+		picture="MA_Armor\data\Icons\H4_Scout_Helmet.paa";
+		hiddenSelectionsTextures[]= {
+			"MA_Armor\data\Helmets\H4_Scout\Scout_Helm_co.paa",
+			"MA_Armor\data\Helmets\H4_Scout\Scout_Visor_Blue_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="MA_Armor\data\Helmets\H4_Scout\H4_Scout_Helmet.p3d";
+		};
+	};
 
 
 
