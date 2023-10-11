@@ -305,6 +305,8 @@ class cfgWeapons {
 			uniformModel="MA_Armor\data\Helmets\EOD\EOD_Helmet.p3d";
 		};
 	};
+
+	// 
 	class Tenthed_M56_Scout_Helmet_Test: Tenthed_Test_Helmet_Base {
 		scope=2;
 		scopeArsenal=2;
